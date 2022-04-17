@@ -61,6 +61,17 @@ img {
   margin-right: auto;
   width: 1200px;
   padding: 0 15px;
+  outline: 1px solid red;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
 }
 
 /*------HEADER------*/
@@ -148,11 +159,22 @@ img {
 /*------------hero-----------*/
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--background-hero-footer-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  background-image: url(../img/heroimg.jpg);
+  background-repeat: repeat;
+  background-position: 50px 50px;
+  background-size: cover;
+  outline: 1px solid red;
 }
+
 .hero-title {
   width: 696px;
   margin: auto;
@@ -231,14 +253,6 @@ img {
 
 .work-title {
   margin-bottom: 50px;
-
-  color: var(--title-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .work-list {
@@ -276,12 +290,6 @@ img {
 .team-title {
   margin-bottom: 50px;
   color: var(--title-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-img {
@@ -310,6 +318,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/*-----Clients-----*/
 
 /*------portfolio-------*/
 
