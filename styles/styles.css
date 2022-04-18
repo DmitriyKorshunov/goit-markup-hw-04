@@ -186,7 +186,7 @@ img {
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 
 .hero-title {
