@@ -167,17 +167,24 @@ img {
 
 .hero {
   max-width: 1600px;
-  height: 600px;
+  min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--background-hero-footer-color);
+
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
 
-  background-image: url(../img/heroimg.jpg);
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/heroimg.jpg");
+
   background-repeat: repeat;
-  background-position: 50px 50px;
+  background-position: center;
   background-size: cover;
   outline: 1px solid red;
 }
