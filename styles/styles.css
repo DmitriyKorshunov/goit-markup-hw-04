@@ -321,13 +321,31 @@ img {
 .team-text {
   width: 147px;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.team-soc-item + .team-soc-item {
+  margin-left: 10px;
+}
+
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  background-color: red;
+  border-radius: 50%;
+  display: block;
 }
 
 /*-----Clients-----*/
@@ -452,6 +470,10 @@ img {
   background-color: var(--background-hero-footer-color);
 }
 
+.footer-container {
+  display: flex;
+}
+
 .footer-logo {
   display: inline-block;
   margin-right: 0;
@@ -470,9 +492,10 @@ img {
   color: var(--accent-color);
 }
 
-/*.address {
-  margin-top: 20px;
-}*/
+.address {
+  width: 231px;
+  margin-right: 70px;
+}
 
 .address .item.item:nth-last-child(-n + 2) {
   margin-top: 9px;
@@ -485,6 +508,12 @@ img {
   font-size: 14px;
   line-height: 1.7;
 }
+
+.address-list {
+  margin-right: 70px;
+  width: 231px;
+}
+
 .footer-mail {
   color: var(--footer-mail-tel-color);
 
@@ -511,4 +540,37 @@ img {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
+}
+
+.footer-soc {
+  width: 206px;
+  margin-top: 12px;
+}
+
+.footer-soc-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin-bottom: 20px;
+}
+
+.footer-soc-list {
+  display: flex;
+}
+
+.footer-soc-item + .footer-soc-item {
+  margin-left: 10px;
+}
+
+.footer-soc-link {
+  width: 44px;
+  height: 44px;
+  background-color: red;
+  border-radius: 50%;
+  display: block;
 }
