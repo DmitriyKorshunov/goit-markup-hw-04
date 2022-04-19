@@ -163,6 +163,10 @@ img {
   color: var(--accent-color);
 }
 
+.auth-nav-list {
+  display: block;
+}
+
 /*------------hero-----------*/
 
 .hero {
@@ -343,9 +347,11 @@ img {
 .team-soc-link {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #ffffff;
   border-radius: 50%;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*-----Clients-----*/
@@ -370,9 +376,11 @@ img {
 .clients-link {
   width: 179px;
   height: 92px;
-  border: 2px solid tomato;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*------portfolio-------*/
@@ -595,7 +603,10 @@ img {
 .footer-soc-link {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  display: block;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
