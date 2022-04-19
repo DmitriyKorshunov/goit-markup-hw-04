@@ -350,6 +350,31 @@ img {
 
 /*-----Clients-----*/
 
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-item {
+}
+
+.clients-link {
+  width: 179px;
+  height: 92px;
+  border: 2px solid tomato;
+  border-radius: 4px;
+  display: block;
+}
+
 /*------portfolio-------*/
 
 .section-portfolio {
