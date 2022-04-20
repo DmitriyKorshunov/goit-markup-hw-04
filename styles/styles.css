@@ -16,6 +16,7 @@
   --background-page-color: #e5e5e5;
   --background-ourteam-color: #f5f4fa;
   --background-primary-color: #ffffff;
+  --icon-primary-color: #afb1b8;
 }
 
 body {
@@ -358,16 +359,18 @@ img {
   width: 44px;
   height: 44px;
   background-color: #ffffff;
-  fill: #afb1b8;
+  fill: var(--icon-primary-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*.team-soc-link:hover .team-soc-link:focus {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: var(--accent-color);
-}*/
+  fill: #ffffff;
+}
 
 /*-----Clients-----*/
 
