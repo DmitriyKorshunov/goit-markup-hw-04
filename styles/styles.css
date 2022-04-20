@@ -395,10 +395,17 @@ img {
   width: 179px;
   height: 92px;
   border: 1px solid #afb1b8;
+  fill: rgba(175, 177, 184, 1);
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /*------portfolio-------*/
