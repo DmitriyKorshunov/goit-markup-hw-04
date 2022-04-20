@@ -118,6 +118,7 @@ img {
 
 .site-nav {
   display: flex;
+  align-items: center;
 }
 
 .site-nav .item:not(:last-child) {
@@ -150,7 +151,7 @@ img {
 .auth-nav .item + .item {
   margin-left: 50px;
 }
-.auth-nav .link {
+.auth-nav .auth-nav-link {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -158,13 +159,22 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav .auth-nav-link:hover,
+.auth-nav .auth-nav-link:focus {
   color: var(--accent-color);
 }
 
-.auth-nav-list {
-  display: block;
+.auth-nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.auth-nav-icon {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /*------------hero-----------*/
