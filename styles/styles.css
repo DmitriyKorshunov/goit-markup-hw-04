@@ -151,7 +151,9 @@ img {
 .auth-nav .item + .item {
   margin-left: 50px;
 }
-.auth-nav .auth-nav-link {
+.auth-nav-link {
+  display: flex;
+  align-items: center;
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -159,14 +161,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.auth-nav .auth-nav-link:hover,
-.auth-nav .auth-nav-link:focus {
+.auth-nav-link:hover,
+.auth-nav-link:focus {
   color: var(--accent-color);
-}
-
-.auth-nav-link {
-  display: flex;
-  align-items: center;
 }
 
 .auth-nav-icon {
@@ -361,11 +358,16 @@ img {
   width: 44px;
   height: 44px;
   background-color: #ffffff;
+  fill: #afb1b8;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/*.team-soc-link:hover .team-soc-link:focus {
+  background-color: var(--accent-color);
+}*/
 
 /*-----Clients-----*/
 
@@ -617,9 +619,14 @@ img {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
   border-radius: 50%;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--accent-color);
 }
