@@ -246,7 +246,7 @@ img {
   margin-left: 30px;
 }
 
-.advantages-item {
+/*.advantages-item {
   display: flex;
   flex-direction: column;
   width: 270px;
@@ -255,7 +255,7 @@ img {
 
   border-radius: 4px;
   background: #f5f4fa;
-}
+}*/
 
 .advantages-title {
   margin-top: 0;
@@ -267,6 +267,66 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.advantages-item-antenna::before {
+  content: "";
+  margin: auto;
+  width: 270px;
+  height: 120px;
+  background-image: url("../img/antenna.svg");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: 70px 70px;
+  background-color: #f4f5fa;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.advantages-item-clock::before {
+  content: "";
+  margin: auto;
+  width: 270px;
+  height: 120px;
+  background-image: url("../img/clock.svg");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: 70px 70px;
+  background-color: #f4f5fa;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.advantages-item-diagram::before {
+  content: "";
+  margin: auto;
+  width: 270px;
+  height: 120px;
+  background-image: url("../img/diagram.svg");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: 70px 70px;
+  background-color: #f4f5fa;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.advantages-item-astronaut::before {
+  content: "";
+  margin: auto;
+  width: 270px;
+  height: 120px;
+  background-image: url("../img/astronaut.svg");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: 70px 70px;
+  background-color: #f4f5fa;
+  padding: 25px 100px;
+  margin-bottom: 30px;
 }
 
 .advantages-text {
@@ -398,9 +458,6 @@ img {
 .clients-list {
   display: flex;
   justify-content: space-between;
-}
-
-.clients-item {
 }
 
 .clients-link {
